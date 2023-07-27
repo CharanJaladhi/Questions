@@ -1,0 +1,40 @@
+There is a singly linked list represented by the following structure: 
+struct Node 
+{
+int data; 
+struct Node* next; 
+}
+Implement the following function: 
+struct Node* AddAlternateNodes(struct Node* head);
+ 
+The function accepts a pointer to the start of the linked list, 'head' as its argument. Implement the function to modify the given list in such a way that original value of each node is added to the value of next to the next node and return the modified list. 
+
+Note: 
+• Return null if list is null. In case of python if list is None return None.
+• Do not create new linked list, just modify the input linked list 
+• 1st and 2nd node values remain unchanged 
+
+Example: 
+Input: 
+head: 1 -> 2-> 3-> 4->5->6->7
+Output:
+1->2->4->6->8->10->12 
+
+Explanation:
+Adding orginal value of the node to its next to next node,
+-> Replace value of '3' with 1 + 3 = 4
+-> Replace value of '4' with 2 + 4 = 6
+-> Replace value of '5' with 3 + 5 = 8
+-> Replace value of '6' with 4 + 6 = 10
+-> Replace value of '7' with 5 + 7 = 12
+
+Thus obtained linked list is 1->2->4->6->8->10->12
+
+Sample Input: 
+head: 2 -> 1 -> 9 -> 2
+Sample Output:
+2-> 1 -> 11 -> 3
+
+
+
+

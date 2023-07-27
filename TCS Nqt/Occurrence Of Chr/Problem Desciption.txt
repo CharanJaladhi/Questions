@@ -1,0 +1,34 @@
+Given a string 'Str' of length 'N' and a character 'Chr'. The task is to check whether starting character and ending character is the same. If both are matching. Find the occurrence of a given 'chr'.
+
+Instruction
+If starting and ending charaters are matching then the print occurence of a given character, else print 0. If the input string length is less than 2, print -1
+
+Example 1
+Input:
+school ---> Input string Str
+o ---> Character Chr
+
+Output
+0
+
+Example 2:
+Input
+noon --> Input string Str
+o --> Character Chr
+
+Output:
+ 2
+
+Explanation
+In Example 1
+Str = "school"
+Starting character of Str is 's' and the ending character is 'l'. So they both are not the same. Hence the output is 0
+
+In Example 2
+Str = "noon"
+Both the start and end character of Str is 'n' that's why we have to find the occurrence of the given character o. 'o' is two times in 'noon'. Hence the output is 2
+
+Constraints:
+2<=N<=50
+The input string is case-sensitive
+

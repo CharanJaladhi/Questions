@@ -1,0 +1,12 @@
+You are given an unsorted array of positive integer type elements. Your task is to sort the given array in a "wave format". Such that elements at the even index are smaller and elements at the odd index are greater than their next element.
+
+The first line of input contains length of array, and second line contains all elements of the given array, separated by space
+
+The single line of output should contain the resultant array elements separated by space.
+
+Example
+Input                                   	   Output
+9
+1 9 2 8 3 7 4 6 5            	 8 9 6 7 4 5 2 3 1
+7
+97 45 86 112 253 23 8     112 253 86 97 23 45 8

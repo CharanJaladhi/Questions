@@ -1,0 +1,31 @@
+Way of correct wrong word to correct word by removing zero or more characters.
+
+Given strings i.e. S1 (for wrong word), S2( for correct word), find out number of way where we can transform  wrong word to correct word by removing characters from wrong word .
+
+Input Format
+Two string (separated by new line) taken from user
+
+Output Format
+Single integer value
+
+Example 1
+Input 
+Indiiian	( String S1 i.e. wrong word)
+Indian      ( String S2 i.e. correct word)
+
+Output
+3
+
+Explanation: Three ways will be -> "ind..ian",  "indi..an" , “ind.i.an”
+"." is where character is removed. 
+
+Example 2 :
+Input : 
+ggoog	( String S1 i.e. wrong word )
+go	( String S2 i.e. correct word )
+
+Output : 
+4
+
+Explanation: four ways will be -> "g.o..",  "g..o.", “.go..” and ”.g.o.”
+"." is where characters are removed.

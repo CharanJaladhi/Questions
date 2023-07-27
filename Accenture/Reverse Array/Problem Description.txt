@@ -1,0 +1,9 @@
+You are given a function,int* ReverseArray(int* arr, int length);
+The function takes an integer array and its length as input. Implement the function to return the array such that the array is reversed i.e. the first element of the array occupies the last position, the second element occupies the second last position and so on.
+
+Note: The re-arrangement is to be done in-place i.e you cannot use another array.
+
+Assumption: You may assume that the array is of even length.
+
+Input: 2 4 6 8 20 15 10 5
+Output: 5 10 15 20 8 6 4 2

@@ -1,0 +1,20 @@
+Write a program to count all perfect numbers in a given range.
+
+Input Format :
+Integer with space seprated.
+1 <= Start <= End.
+
+Output:
+Count of perfect number.
+
+Example 1
+Input
+1 5000	
+Output
+4	
+
+Example 2
+Input 
+500  50000
+Output
+1

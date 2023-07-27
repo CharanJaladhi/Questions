@@ -1,0 +1,14 @@
+Consider a non-zero positive decimal number. innum, an integer inbase greater than 1 and print outnum, the maximum number of consecutive set of zeroes after converting innum to its inbase notation
+
+Print -1 if there exists no zero after conversion of innum
+
+Input Format
+First line contains innum
+Second line contains inbase
+Read the input from the standard input stream
+
+Output Format
+Print outnum or -1 to the standard output stream
+
+16 2 10000100
+25 4 => -1

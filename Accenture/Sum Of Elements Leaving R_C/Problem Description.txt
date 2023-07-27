@@ -1,0 +1,20 @@
+You are given a function,
+               int FindSumLeavingOutRowCol(int** arr, int nrow, int ncol, int grow,int gcol);
+
+The function takes a two-dimensional array ‘arr’, its number of rows ‘nrow’, its number of columns ‘ncol’ and integers ‘grow’ and ‘gcol’ as input. Implement the function to find and return the sum of elements of the array leaving out the elements of the grow and gcol column.
+
+The algorithm to find the sum is as follows:
+
+1. Iterate over every row except for grow
+2. keep on adding each element except for the elements of gcol to a variable ‘sum’.
+
+NOTE:
+1.Row and column indices start from 0.
+2. Value of grow and gcol from 1.
+
+CODING:
+int FindSumLeavingOutRowCol(int** arr, int nrow, int ncol, int grow,int gcol)
+{
+          /* write your code here *
+
+}

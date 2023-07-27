@@ -1,0 +1,30 @@
+Write a programme to find Nth greatest element from collection.
+
+
+Input Format
+First input contains integer value X, used for define size of array.
+Second input contains X unsorted integer numbers separated by new line, i.e. A[i].
+Third input contains value of N, to find Nth smallest element from array.
+
+Output Format
+Output should be integer value, the Nth greatest element in array.
+Additional message in output will cause to failure of test cases.
+
+Constraints 
+ 1 <= X <= 10
+ 1 <= A[i] <= 1000 
+ 1 <= N <= X
+
+Sample1:
+Input:
+5	( Size of Array )
+10	( 1st element of Array )
+20	( 2nd element of Array )
+40	( 3rd element of Array )
+30	( 4th element of Array )
+60	( 5th element of Array )
+3	( value of N to find Nth greatest element) 
+Output: 
+30
+
+Explanation: Here first input is 5, the size of array. 10,20,40,30,60 is element of array A[i]. Last input i.e. 3 is pointing to 3rd greatest element in given array. Hence the 3rd greatest element is 30.

@@ -1,0 +1,17 @@
+You are given a function,
+         void FindOnesInBinaryString(char* str);
+The function takes a binary string i.e. a string comprising of ‘0’s and ‘1’s as input. Implement the function such that it prints the indices of the first occurrences of three equi-spaced ones, to the standard output (STDOUT).
+ 
+ 
+Note:
+1. Indices start from 0.
+2. If no equi-spaced ‘1’s are found, then print ‘-1’
+
+Input:
+011001001000001
+
+Output:
+2 5 8
+
+Explanation:
+The distance between the ‘1’s at positions 2, 5, and 8 is 2, hence these are the indices of the first occurrence of three equi-spaced 1’s.

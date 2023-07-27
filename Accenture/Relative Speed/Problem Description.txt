@@ -1,0 +1,42 @@
+You are given a function,
+int Relativespeed(int direction ,int distance1 ,int time1 ,int distance2 ,int time2);
+
+The function accepts integers 'direction','distance1','time1','distance2'&'time2'as its argument.'distance1'&'distance2' are the distances travelled and 'time1' &'time2' are the time taken by 1st &2nd person respectively. Implement the function to find 'speed1'& 'speed2' of 1st & 2nd person respectively and return the relative speed as per given conditions:
+    If direction = 0, relative speed = speed1 + speed2
+    If direction = 1, relative speed = speed1 + speed2
+
+Speed = Distance/Time
+
+Assumption:
+speed1 >= speed2
+distance1,time1,distance2,time2 are greater than zero.
+
+Note:
+direction is either 0 or 1.
+Computed value lies within integer range.
+Consider division as integer division.
+
+INPUT:
+direction: 0
+distance1: 30
+time1: 5
+distance2: 20
+time2: 10
+
+OUTPUT:
+8
+
+Explanation:
+speed1 = 30/5 = 6
+speed2 = 20/10 = 2
+Since direction = 0, relative speed = (6+2)=8.
+
+Sample Input
+direction: 1
+distance1: 50
+time1: 2
+distance2: 60
+time2: 3
+
+Sample Output
+5
