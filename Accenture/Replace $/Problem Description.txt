@@ -1,7 +1,0 @@
-Input name as string and we need to return a string with how many times each letter shows up in the string by using $ sign
-
-Input:
-"accenture"
-
-Output:
-a:$,c:$$,e:$$,n:$,t:$,u:$,r:$
