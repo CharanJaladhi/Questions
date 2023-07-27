@@ -1,0 +1,19 @@
+There's a project manager having a team of 5 members. PM always confirms the give task is completed in given timeline (no of days here). PM decides how much task will be completed on a single day by whole team. Two of five work over a task for full day and 3 of them only work over a task for half a day. We have to check for the given no of days( the tasks(t) would be completed or not? If yes then print "1" if not then print "0". 
+
+Inputs:- 
+n : Takes the no. of tasks to be completed. 
+t : No of task completed by an individual team member. 
+d : No of days in which the task has to be completed. 
+
+Example: 
+Casel: 
+50 
+2 
+10 
+Output : 1 
+
+Case2: 
+50 
+2 
+2 
+Output : 0 

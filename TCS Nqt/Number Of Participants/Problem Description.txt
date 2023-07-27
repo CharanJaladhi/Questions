@@ -1,0 +1,39 @@
+Accept total number of participants (P) in class. A group of four divisions has to be created from registered participants. The limit for registration is 200. If total number of participants registered is even number then, criteria for group division are that each group should have equal number of participants. And total number of participants in each group should be an even number. 
+
+For example, if P=104 then Group A=26, Group 13=26 Group C=26 and Group D=26 
+
+If total number of participants is odd number then, criteria for group division is that take the nearest multiple of 4 less than P and perform four equal divisions and then the left out participants are added in Group `D'. 
+
+For example, If P=127, then Group A=31, Group 8=31 Group C=31 and Group D=34 
+Group D is 34 because 31 participants plus left out 3 participants are added in this group. 
+
+Display report on total number of participants in each group. Also display when input in invalid. 
+
+Input format for testing; 
+• Written program code should accept single integer value denoting total number of participants P
+
+Output format for testing: 
+Written program code should generate four integer value separated by new line representing total number of participants of Group-A, Group-B, Group-C and Group-D respectively
+
+Constraint
+Total number of participants 'p', 100<=P<=200
+
+Note
+If number of participants entered by user is less than 100 or greater than 200, display "InVALID INPUT" and quit
+
+Example 1
+Input 
+104 -> Value of P
+Output
+26 ->  Participants of Group A
+26 ->  Participants of Group B
+26 ->  Participants of Group C
+26 ->  Participants of Group D
+
+Example 2Input 
+127 -> Value of P
+Output
+31 ->  Participants of Group A
+31 ->  Participants of Group B
+31 ->  Participants of Group C
+34 ->  Participants of Group D

@@ -1,0 +1,26 @@
+Jennie found a letter that her friend suman has written to her sister. Jennie is very naughty, so she decides to meddle with the letter. She changes all the words in the letter into palindromes.
+For this, she follows two rules:
+1. She can only  reduce the value of a letter by 1. i.e) she can change d to c, but she cannot change c to d or d to b.
+2. The letter a may not be reduced any further
+
+Each reduction in the value of any letter is counted as a single operation. Determine the minimum number of operations required to convert a given string into a palindrome
+
+Input Format
+The first line contains an integer, showing the number words
+THe next lines will each contain a string
+
+Output Format
+A single line containing the minimum number of operations corresponding to each test case
+
+Note
+All strings are composed of lower case English letters, *ascii[a-z], with no spaces
+
+Sample Input          Sample Output
+5                                 
+abbc                           2
+acad                           5
+bade                           6
+abc                            2             
+aba                            0
+
+

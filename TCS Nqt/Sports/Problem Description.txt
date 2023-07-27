@@ -1,0 +1,59 @@
+For Annual Sports events, College is selecting members in Team for a National Level Games. For one of the games, Team Selection Criterion is height. Candidates who wish to be part of that team for any game fill the registration form. 
+
+So, for a Game A, from N number of registered candidates only first M number of Candidates will be selected based on their heights. 
+
+Height[]  is array of float representing heights of registered candidates whose names are maintained in a string array Candidates[] at the same index position as of their Height[].
+
+The problem is to identify the Members selected for Team for Game A.(Display the Names of selected Candidates)
+
+Inputs are as follows 
+1. number of required players to form team - 
+<Integer> 
+2. names of registered Participants . User can enter N number of Names. Names should be string values. 
+3. heights[] of candidates whose names are taken above maintaining the mapping with narnes and heights Number of inputs of heights should be equal to number of inputs of names. 
+4.Q or q should be pressed to stop taking input of narnes. 
+5. Non integer values should be pressed to stop taking input of height.
+
+Example 1:
+Input Values
+8
+PRATIK
+JOY
+NIMESH
+NIKHIL
+SURESH
+RAMESH
+JITU
+ASHISH
+SWAYAM
+HARSH
+LARA
+MITESH
+SANTOSH
+RAJ
+q
+5.6
+5.4
+5.5
+5.5
+5.6
+5.4
+5.7
+5.9
+6.1
+6.2
+6.5
+6.8
+7.1
+6.8
+
+
+Output Values
+SANTOSH
+RAJ
+MITESH
+LARA
+HARSH
+SWAYAM
+ASHISH
+JITU
