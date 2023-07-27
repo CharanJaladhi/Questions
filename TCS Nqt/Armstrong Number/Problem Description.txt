@@ -1,9 +1,0 @@
-Alexa is a mathematical teacher . She likes to ask puzzles / math problems to all the students of class 10A. The time she has given a math problem with below conditions: 
-
-1) A number should be natural number 
-2) A number should be Armstrong number. 
-3) A number should be display between intervals N1 & N2 
-
-Write the code to find out number/numbers that satisfying above three properties. 
-
-
