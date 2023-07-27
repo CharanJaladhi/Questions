@@ -1,0 +1,55 @@
+In a house there is a ladder that has 11 steps. Every step is assigned with number in between 1 to 10. 
+
+User can hop max number of steps at a time according to given number on stairs. Task is to find out minimum number of hop user can take to reach end of staircase. 
+
+Input Format: 
+Candidate has to write the code to accept 11 integer values for array A[i]. Each value is separated by new line without any additional message.
+
+Output Format:
+Written program code should generate output as single integer value represents number of hop.
+
+For Example:
+If stairs assign with below numbers:
+{ 1, 3, 5, 3, 8, 2, 6, 7, 6, 8, 9}
+Here user will hop 1st stair to 2nd stair because he/she permitted to hop only one step.
+From second stair user have chance to hop maximum 3 steps directly.
+ So user has option to choose 5, 3 or 8. If number 8 is chosen then the end stair 9 can be reached.
+So order is 1—3—8—9. Hence Minimum 3 hop are required to reach the end of staircase.
+
+Constraints:
+1<=A[i]<=10
+Size of Array A=11
+
+Example 1 :
+Input : 
+1	(Value of A[0]
+3	(Value of A[1]	
+5	(Value of A[2]
+3	(Value of A[3]
+ 8	(Value of A[4]
+2	(Value of A[5]
+ 6	(Value of A[6]
+7	(Value of A[7]
+ 6	(Value of A[8]
+8	(Value of A[9]
+9	(Value of A[10]
+Output : 
+3
+
+Example 2 :
+Input : 
+1	(Value of A[0]
+1	(Value of A[1]	
+1	(Value of A[2]
+1	(Value of A[3]
+ 1	(Value of A[4]
+1	(Value of A[5]
+ 1	(Value of A[6]
+1	(Value of A[7]
+ 1	(Value of A[8]
+1	(Value of A[9]
+1	(Value of A[10]
+	
+Output : 
+10
+Explanation: Every step only one hop is allowed. Hence output is 10.

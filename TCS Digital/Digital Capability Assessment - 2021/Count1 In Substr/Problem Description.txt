@@ -1,0 +1,9 @@
+Take string as an input and a number as an input and get the sub strings based on the given number and give back the count of highest number of 1's within all the sub strings
+
+Example
+Input
+str : 001101001111
+num : 3
+
+Output
+3
