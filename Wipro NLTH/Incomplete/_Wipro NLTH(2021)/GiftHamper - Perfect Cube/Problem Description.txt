@@ -1,0 +1,31 @@
+A customer buys N number of products from a shop and each product has a different price. During the holiday season the shop owner decides to introduce a special offer. He wishes to distribute gift hampers to customers  who purchase products whose total price is perfect cube. If customer dont meet this requirement, the owner will allow them to buy a few more products in order to make the total price a perfect cube.
+
+Write an algorithm to print "YES" if the customer will receive a gift hamper, else print an integer representing the price of the product the customer should buy in order to receive a gift hamper
+
+Input
+The first line of the input consists of an integer -numProduct, representing the number of products(N)
+
+The next line consists of N space separated integers - price[0], price[1], ..,price[N-1], representing the price for all the products
+
+Note:
+A perfect cube is an integer that is equal to some other integer raised to the power of three
+
+Example 1:
+Input
+6
+60 7 8 10 250 730
+
+Output
+266
+
+Explanation
+The total price for all the products is 1065 which is not a perfect cube. In order to receive a gift hamper the customer needs a total price of 1331 and they have a shortage of 266(1331-1065). So, the output is 266
+
+Example 2:
+Input
+5
+60 891 520 213 44
+
+Output
+Yes
+

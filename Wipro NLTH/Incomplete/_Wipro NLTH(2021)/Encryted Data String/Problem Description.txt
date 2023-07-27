@@ -1,0 +1,28 @@
+A company provides data encryption to its client data. The data sent over the network is in the form of a string. The encryption Algorithm used by the company adds a key value in the ascii value of each character of the data string and forms the encrypted string. This string is then sent over the network to provide security 
+
+Write an algorithm to find the encrypted data string
+
+Input 
+The first line of the input consists of an integer - key, representing the key value for the encryption 
+The second line consists of a string - dataStr, representing the data String to be encrypted 
+
+Output
+Print a string representing the encrypted data string 
+
+Constraints
+0 < len <= 1000, len is the length of the given data string dataStr 
+0 <= key <= 100 
+
+Note 
+The dataStr can contain lowercase and uppercase English letters (i.e a-z, A-Z) digits (i.e 0-9), and any special symbols 
+
+Example
+Input
+3
+as3gAsd
+
+Output
+dv7jDvg
+
+Explanation
+After adding 3 in the ascii value of the characters in the data string, the encrypted string becomes dv7jDvg

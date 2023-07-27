@@ -1,0 +1,24 @@
+The media company GlobalAd has received a batch of advertisements from different product brands. The batch of advertisement is the numeric value where each digit represent the number of advertisements the media company has received from different product brands. Since the company banners permit only even numbers of advertisement to be displayed, the media company needs to know the total number of advertisement it will be able to display from the given batch
+
+Write an algorithm to calculate the total number of advertisements that will be displayed from the batch
+
+Input 
+Input consists of an integer-batch, representing the batch of advertisement 
+
+Output
+Print an integer representing the total number of advertisement that will be displayed by the media companies
+
+Constraint
+0 < batch <= 10^9
+
+Note
+0 is considered as an even digit and 1 is considered as an odd digit
+
+Example
+258345
+
+Output
+14
+
+Explanation
+The even number in the batch are 2, 8, 4. Hence the output is 2+8+4 = 14

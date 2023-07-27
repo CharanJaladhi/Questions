@@ -1,0 +1,38 @@
+Developers at the mobile company ‘TalkFree’ have designed a game for the launch of their new product. In the game, the player is given a number. The player has to find out the difference between the number and the reverse of the number. The difference between the two numbers is the player’s score. The number given to the player and the player’s score can either be a negative or positive number.
+Write an algorithm to find the player’s score.
+
+Input
+The input consists of an integer – numberPlayer representing the number given to the player.
+
+Output
+Print an integer representing the player’s score.
+
+Constraint
+-10^9 < numberPlayer < 10^9
+
+Example
+Input:
+1234
+Output:
+-3087
+Explanation:
+The reverse of 1234 is 4321.
+Difference is 1234 – 4321 = -3087.
+Hence the output is -3087.
+
+TESTCASES
+
+Input: 46801
+Output: 35937
+
+Input: 39999
+Output: -59994
+ 
+Input: 446588
+Output: -439056
+
+Input: 99999999
+Output: 0
+
+Input: 54638294
+Output: 5354649

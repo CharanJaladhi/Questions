@@ -1,0 +1,31 @@
+At "yoursPay" bank, the customer bank lockers use a digital lock. The digital lock is encoded in numeric form. To decode the lock there are two methods. If the lock is encoded by an armstrong number, then the decoding number is the sum of the even digits of the encoded number. If the encoded number is not an armstrong number, then the decoding number is the sum of the odd digits of the encoded number. An armstrong number is a number that is the sum of its own digits each raised to the power of the number o g:s in the number. 
+
+write an algorithm to decode the digital lock.
+
+Input
+The input is a long integer - encodedLock representing the numeric value of the encoded digital lock
+
+Output
+Print an integer representing the decoding number for the encoded digital lock
+
+Constraint
+0 < encodedLock <=10^9
+
+Note
+0 is considered as an even digit and 1 is considered as an odd digit
+
+Example 1
+Input
+407
+
+Output
+4
+
+Explanation
+407 is an armstrong number since 4^3+0^3+7^3 = 64 + 0 + 343 = 407
+Hence the decoding number is the sum of the even digits = 4 + 0 = 4
+
+Example 2
+Input
+1541
+

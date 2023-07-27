@@ -1,0 +1,9 @@
+In a mathematics class, Jason, the mathematics teacher asks the students to solve a workbook of expressions. An expression consists of characters, operators and brackets. But Jason wants to give simplified expressions to the students by removing the brackets from the expression and forming the updated expression after removing the brackets 
+
+Write an algorithm to help Jason simplify an expression by removing the brackets from the expression and forming the updated expression after removing the brackets 
+
+Input
+The input to the function/method consists of a string exprsn, representing an expression. 
+
+Output
+Return a string representing the simplified expression by removing the brackets from the expression and forming the updated expression after removing the brackets in the given expression.

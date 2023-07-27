@@ -1,0 +1,31 @@
+A company has a number of products in stock. They have multiple products available for a single product ID. The product IDs of the products are denoted by 1 to N. The company wants to analyze the difference between the maximum number of products available and the minimum number of products available for any two different product IDs so that they can increase the supply of the products which are low in stock. In addition, the product with a higher number of products in stock should also have a greater product ID than the product ID which has fewer items in stock. 
+
+Write an algorithm to find the maximum difference between the minimum and the maximum number of products available for a given list of product IDs 
+
+Input
+The first line of the input consists of an integer - num, representing the number of available products (N). The second line consists of N space-separated integers - prod 1, prod2, , prodN, representing the list of available product IDs. 
+
+Output
+Print an integer representing the maximum difference between the maximum number of products available and the minimum number of products available for any two different product IDs, If all productlDs have the same number of products in stock then print 0, Also, if only one productID is available ,with one or more products in stock then also print 0 
+
+Constraints
+1 <= num <= 10^5
+1 <=prod1 , prod2 ,...,prodN <= 10^5
+
+Example 1
+Input 
+6 
+2 4 5 5 4 4
+ 
+Output: 
+2
+ 
+Explanation:
+The maximum number of products in stock are for product ID 4 and the minimum number of products that are in stock are for product ID 2 i.e. 3 - 1 = 2 Also, the product ID for the product which has more items in stock is greater than the product ID with fewer items in stock i.e 4 > 2. 
+So the output is 2 
+
+Example 2
+Input
+8
+2 1 5 5 4 4 1 1
+

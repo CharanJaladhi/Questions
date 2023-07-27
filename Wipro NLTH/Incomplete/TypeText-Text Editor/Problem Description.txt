@@ -1,0 +1,9 @@
+TypeText is a text editor. Its developers want to add a new feature that finds the count of unique words in a given text. The unique words are the words that only appear once in the text
+
+Write an algorithm to help the developers add this new feature
+
+Input
+The input consists of a string text representing the words of the text which are separated by whitespaces in the given string
+
+Output
+Print an integer representing the count of the unique words present in the text

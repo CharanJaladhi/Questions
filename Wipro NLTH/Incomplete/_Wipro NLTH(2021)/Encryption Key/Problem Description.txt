@@ -1,0 +1,26 @@
+The IT giant 'SoftCompInfo' has decided to transfer its message through the network using a new encryption technique. The company has decided to encrypt the data using the non-prime number concept. The message is in the form of a number and the sum of non-prime digits present in the message is used as the encryption key.
+ 
+Write an algorithm to determine the encryption key. 
+
+Input 
+The input consists of an integer - numMessage, representing the numeric form of the message. 
+
+Output 
+Print an integer representing the encryption key
+
+Constraints
+0 <  numMessage <= 10^9
+
+Note
+Digit 1 and 0 are considered as prime number
+
+Example
+Input
+45673
+
+Output
+10
+
+Explanation
+The non prime digits are 4 and 6. Hence the output is 4+6 = 10
+
