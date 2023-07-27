@@ -1,0 +1,52 @@
+Given an array of numbers, find the maximum possible number that can be formed with the given numbers
+
+Input Format
+First line of the input consists of an integer, n which corresponds to the number of elements in an array
+
+Next lines consists of an integers which corresponds to the array elements
+
+Sample Input:
+Enter the size of an array
+5
+Enter the elements of an array
+1
+2
+3
+4
+5
+Enter the number of digits
+3
+Maximum Possible Number: 543
+
+Explanation:
+You could have used 555 but its given that digit should be used only once so 543 is a valid greatest number
+
+Sample Input 2:
+Enter the size of an array
+5
+Enter the elements of an array
+95
+80
+953
+72
+4
+Enter the number of digits
+3
+Maximum Possible Number: 954
+
+Sample Input 3:
+Enter the size of an array
+4
+Enter the elements of an array
+45
+12
+78
+56
+Enter the number of digits
+3
+Invalid Input
+
+Explanation:
+For the given input we cannot frame three digits greatest number. so print "Invalid Input" 
+
+
