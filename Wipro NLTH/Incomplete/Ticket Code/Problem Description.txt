@@ -1,7 +1,0 @@
-The lucky lottery has a list of N Lottery ticket codes. The ticket code is a numeric value. The lottery has to shortlist the runner up Prize winner. The shortlisting strategy involves selecting the code whose frequency in the list is equal to its value. If there are multiple codes whose frequency in the list is equal to its value, select the one which has the largest value
-
- write an algorithm to select the shortlisted ticket code
-
- Input
- The first line of input consists of an integer- size, representing the size of the list N.
-The second line of input consists of space separated integers  ticket0, ticket1, .. ticketN-1  representing the  ticket code
