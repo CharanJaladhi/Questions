@@ -1,0 +1,20 @@
+Write a code in the blanks to find the second largest number in the given array and return to the function.
+
+Input:
+The first line contains an integer T, total number of elements. Then follow T integers.
+
+Output:
+Display the second largest among the given T integers.
+
+Constraints:
+1 < =  T < =  1000.
+1 < =  integers < = 1000000.
+
+Example:
+Input
+10
+5 7 4 14 27 60 42 21 1 48
+
+Output
+48
+

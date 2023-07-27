@@ -1,0 +1,21 @@
+You are given a function,
+           int FindMaxProduct(int** arr, int n);
+The function takes a two-dimensional array having equal number of rows and columns (i.e. a square matrix) and its dimension, ‘n’, as input. Implement the function such that it returns the maximum product that can be formed from four adjacent numbers.
+ 
+Note: Numbers can be adjacent to each other in either of the given directions: up, down, left, right, diagonal or anti-diagonal. Ensure that four adjacent numbers are chosen in such a way that the direction does not change while choosing the numbers.
+
+Assume: n >= 4.
+
+Input:
+5
+1 2 3 4 5
+6 7 8 9 1
+2 3 4 5 6
+7 8 9 1 0
+9 6 4 2 3
+
+Output:
+3024
+
+Explanation:
+Here, the numbers 6, 7, 8, 9 in the second row, which are horizontally adjacent form the product 3024 which is the maximum product of any four adjacent numbers in the given array.

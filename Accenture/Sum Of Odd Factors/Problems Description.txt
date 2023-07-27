@@ -1,0 +1,13 @@
+Write a program to find the sum of odd factors of a number.
+
+Input :
+Given an integer.
+
+Output:
+Print the sum of odd factors.
+
+Example:
+Input:
+10
+Output:
+6

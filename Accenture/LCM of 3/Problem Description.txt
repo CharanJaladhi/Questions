@@ -1,0 +1,16 @@
+You are given a function,
+           int FindLeastCommonMultiple(int num1, int num2, int num3);
+The function takes three integers ‘num1’, ‘num2’, ‘num3’ as input. Implement the function to return the least common multiple of the three numbers.
+
+Note: Least Common Multiple (LCM) of three integers x, y, z is the smallest positive integer that is divisible by all three numbers x, y, and z.
+
+Assumption: You may assume that LCM of negative numbers is the same as that of their positive equivalents.
+
+Input:
+2 3 4
+
+Output:
+12
+
+Explanation:
+The smallest number divisible by 2, 3, and 4 is 12, hence it the output.

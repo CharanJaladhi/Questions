@@ -1,0 +1,11 @@
+You are given a function
+int findNumberOfTriangles(int start , int end);
+
+The function contains start and end range . you should return the number of triangles that can be made in that range.
+
+Input:
+1 5
+Output:
+3
+Explanation:
+The triangles that can be made in the range are (1,2,4) ,(2,3,4) , (3,4,5)

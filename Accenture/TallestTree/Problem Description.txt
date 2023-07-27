@@ -1,0 +1,22 @@
+A treeHeight is represented by the following structure
+struct TreeHeight
+{
+       int feets;
+       int inches;
+} 
+
+You are given a function,
+int TallestTree(struct TreeHeight trees[], int n);
+
+The function accepts an array 'trees' of type 'TreeHeight' consisting of 'n' elements as its argument. 'TreeHeight' consists of two integers 'feets' and 'inches' which represents height of a tree. Implement the function to find the tallest tree among the 'trees' and return its height (in inches)
+
+Height of a tree = (12 * feets) + inches
+
+Assumption
+ - feets > 0
+ - 0 >= inches >= 11
+
+Note
+ - Computed values lies within integer range
+ - Return -1 if 'trees' is null (None, in case of Python)
+ - trees[0] is the first element 

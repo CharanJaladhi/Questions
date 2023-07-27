@@ -1,0 +1,35 @@
+A linked list is represented by the following structure:
+struct Node
+{
+      int data;
+      struct Node *next;
+};
+You are given a function,
+struct Node* UpdateMin(struct Node* list);
+
+The function accepts the head node of a linked list 'list' as its argument. 'list' was supposed to be in increasing order but got corrupted due to addition of some random elements in between. Implement the function to update all such elements which are smaller than their previous element by taking the mean of their adjacent elements ( previous and next element). Return the updated list.
+
+Assumption
+->'list' does not have consecutive faulty elements
+->first and last elements of the list are not corrupted
+
+Note:
+-> preserve the sequence of elements of list 
+->Do not use extra memory
+->Return null if list is null. In case of python if list is none return NONE
+->consider division operation as integer division 
+->mean of two numbers (a,b) = (a+b)/2
+
+Example:
+Input
+list: 14 -> 10 -> 22 -> 29
+Output
+14 -> 18 -> 22 -> 29
+Explanation
+Elements (14, 22, 29) of list are in increasing order except for element (10) which is updated by mean of its adjacent elements, ((14+22)/2) = 18. Thus output is 14 -> 18 -> 22 -> 29
+
+Sample Input
+list: s -> 2 -> 11 -> 17 -> 1 -> 37
+Sample output
+s -> 8 -> 11 ->17 -> 27 -> 37
+

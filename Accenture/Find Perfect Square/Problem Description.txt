@@ -1,0 +1,11 @@
+You are given a function
+int countPerfectSquares( int * arr , int length);
+The function has two parameters , first parameter is the array which contains 'N' elements and the number of elements in the array that is the length of the array. You have to return the number of perfect squares in the given array.
+
+Example:
+Input :
+5
+10 34 25 4 19
+
+Output :
+2

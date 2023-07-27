@@ -1,0 +1,29 @@
+You are given a function,
+int ElementAndIndices(int arr[], int n);
+
+The function takes an integer array 'arr' of size 'n' as its arguments. Implement the function to find and return the number of elements which are equal to their index value in array i.e arr[k] = k, 0<=k<n
+
+Note
+ - Indexing starts from 0
+ - Return -1 if 'arr' is empty or None in case of python
+
+Example
+Input
+10 1 12 3 5 8 9 7 12 23
+Output
+3
+Explanation
+Index	Element
+0	    10
+1	     1
+2	     12
+3	      3
+4	      5
+5	      8
+6	      9
+7 	      7
+8	     12
+9	     23
+
+Elements at index (1, 3, 7) are equal to their index values (1, 3, 7) respectively. Since, these are 3 elements, thus, output is 3
+
