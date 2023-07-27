@@ -1,0 +1,27 @@
+ The children's toy making company "ToysFun" is building cublic shaped learning toys. The company has a list of N dimensions suggested by its designers but they wish to choose only those dimensions for the toys that are perfect cube number, To do this, they need to know the total count of perfect cube numbers present in the list of dimensions.
+Write an algorithm to help the toy manufactures find the total count of perfect cube numbers present in the list of dimensions.
+
+INPUT
+The first line of input consists of an integer- numDimensions representing the total number of dimensions selected by the designers(N).
+The second line of input consist of N space seperated integers-dimens1,dimens2,....dimensN-1 representing the value of the dimensions selected by the designers.
+
+OUTPUT
+Print an integer value representing the total count of the dimensions that are perfect cube numbers.
+
+CONSTRAINTS
+0 < numDimensions <= 10^6
+0 < (dimens)i < 10^6
+0 <= i < numDimensions
+
+EXAMPLE
+Input 
+9
+23 1 8 56 27 67 64 125 232
+Output
+5
+Explanation 
+The cube number are 1,8,27,64,125.Hence the output is 5.       
+        
+      
+
+

@@ -1,0 +1,25 @@
+3. A data company wishes to store its data files on the server. They .. N files. Each file has a particular size. The server stores the files in bucket list. The bucketlD is calculated as the sum of the digits of its file size. The server .. the bucket ID for every file request where the file is stored. 
+
+Write an algorithm to find the bucketlDs where the files are stored. 
+
+Input 
+The first line of the input consists of an integer numFiles, representing the number of files to be stored (N). 
+
+The second line consists of N space-separated integers fileSize, fileSize1, fileSize2, fileSizeN, representing the sizes of the files. 
+Output 
+Print N space-separated integers representing the bucket IDs for each file, respectively.  
+
+Constraints: 
+0 <= numFiles <= 10^6
+0 <= fileSize i<=10^6 
+0 <= i < numFiles 
+
+Example 
+Input 
+4 
+43 345 20 987 
+Output 
+7 12 2 24 
+Explanation: 
+The file ID 0 is of 43. So, it is stored in bucket ID 7(4 + 3) 
+The file ID is of size 345. So, it is stored in bucket ID 12(3 + 4 + 5) The bucket IDs for the remaining files are calculated similarly 

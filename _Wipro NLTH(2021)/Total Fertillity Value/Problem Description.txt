@@ -1,0 +1,27 @@
+The NGO SaveEarth is planning trees on a straight highway road. For this purpose, they have divided the road into virtual blocks. The fertility value can be positive or negative. The NGO will plant the trees over the course of two days. The  first block will be plowed on the first day and the second block will be plowed on the second day. The third block  will be plowed on the first day and the fourth block will be plowed on the second day, and so on. For the purpose of analysis, they wish to calculate the total fertility value of the blocks that are plowed each day. The total fertility value is calculated by adding the fertility values of all the blocks
+
+Write an algorithm to find the total fertility of the blocks plowed on first day
+
+Input
+The first line of the input consists of an integr numBlocks, representing the number of blocks(N).
+The second line consists of N space separated integers - fertilityValue1, fertility2, ....., fertilityValueN representing the fertility value of the soil assigned to each block
+
+Output
+Print an integer representing total fertility value of the blocks plowed on first day.
+
+Constraints
+0 < numBlocks <= 10^5
+-10^6 <= fertilityValue(i) <= 10^6
+1 < i <numBlocks
+
+Example
+Input
+7
+2 -3 8 -6 -7 18 1
+
+Output
+4
+
+Explanation
+The blocks plowed on the first day have values [2, 8, -7, 1]
+The total fertility value of the soil plowed on first day is 4

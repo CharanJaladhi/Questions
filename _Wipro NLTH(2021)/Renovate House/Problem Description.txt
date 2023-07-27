@@ -1,0 +1,9 @@
+In a town, the houses are marked with English alphabets. A committee in the town wants to renovate houses in the town. As the funds are limited so they plan to renovate only the houses marked with vowels. The committee head gives the list of houses to the members and asks them to identity the houses which were not renovated 
+
+Write an algorithm to help the committee members find the list of houses that were not renovated 
+
+Input
+The input to the function/method consists of one argument -houses, a string representing the sequence of house markings 
+
+Output
+Return a string representing the list of houses that were not renovated

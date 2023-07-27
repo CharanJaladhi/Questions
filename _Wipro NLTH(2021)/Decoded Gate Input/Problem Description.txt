@@ -1,0 +1,22 @@
+A logic gate manufacturing company have received a gate input in an encoded form. This encoded form of the gate input is a decimal number. Since the gate accepts only binary input the company need to decode the input by converting it to binary form and then pass it through the gate.
+
+Write an algorithm to decode the gate input.
+
+Input
+The Input consists of an integer - gateInput representing the encoded gate input.
+
+Output
+Print an integer consisting of only 0s and 1s that represents the decoded gate input.
+
+Constraints
+0 < gateInput <= 10^6 
+
+Example
+Input 
+123 
+
+Output 
+1111011 
+
+Explanation
+123 in binary form is 1111011

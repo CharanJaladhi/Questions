@@ -1,0 +1,23 @@
+The online math  course provider mathAtTip has designed a course for children called learning number recognition and counting. The assessment part of the course has a question where the student is given a number and a digit. The student need to find out the total count of the digit present in the number excluding the given digit
+
+Write an algorithm to help the student find out the count of the total number of digits present in the number excluding the given digit.
+
+Input
+The input consists of two separated integers - number and digit, where the first integer represents the number and the second integer represent the digit given to the student
+
+Output
+Print an integer representing the count of the total number of digit present in the number excluding the given digits
+
+Constraint
+0 < number <= 10^9
+0 < digit <= 9
+
+Example
+Input
+56444565
+
+Output
+5
+
+Explanation
+Excluding 5; the digits in the number are 4 and 6 and their total count is 5. Hence the output is 5.

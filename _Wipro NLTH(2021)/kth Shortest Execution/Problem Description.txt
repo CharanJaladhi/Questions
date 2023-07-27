@@ -1,0 +1,28 @@
+A company wishes to modify the technique by which tasks in the processing queue are executed. There are N processes with unique IDs from 0 to N-1. Each of these tasks has its own execution time. The company wishes to implement a new algorithm for processing tasks. For this purpose they have identified a value K. By the new algorithm, the processor will first process the task that has the Kth shortest execution time. 
+
+Write an algorithm to find the Kth shortest execution time. 
+
+Input 
+The first line of the input consists of two space-separated integers numTasks and valueK, representing the number of tasks (N) and the value K, which is used as reference respectively. 
+
+The second line consists of N space-separated integers executionTime1, executionTime2,.... Execution TimeN representing the execution times of the tasks. 
+
+Output: 
+Print an integer representing the Kth shortest execution time. 
+
+Constraints: 
+0 <= valueK < numTasks <= 10^6
+0 <= executionTime(i)<=10^6 
+0 <= I < numTasks 
+
+Example 
+Input: 
+7 5
+9-3 8 -6 -7 18 10 
+
+Output: 
+9 
+
+Explanation: 
+The sorted list of execution times is [-7, -6, -3, 8, 9, 10, 18] 
+so, the 5th smallest execution time is 9

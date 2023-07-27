@@ -1,0 +1,27 @@
+The Torris country visa center generates the token number for its applicants from their application ID. The application ID is a numeric value. The token number is generated in a specific form. The even digits in the applicant's ID are replaced by the digit one greater than the even digit and the odd digits in the applicant's ID are replaced by the digit one lesser than the odd digit. The numeric value thus generated represents the token number of the applicant.   
+Write an algorithm to generate the token number from the applicant ID.
+
+INPUT
+The input consists of an integer -applicant ID,representing the application ID of the applicant.
+
+OUTPUT
+Print an integer representing the token number.
+
+CONSTRAINT 
+0 < applicantID <= 10^9
+
+NOTE
+0 is considered as an even digit and 1 is considered as an odd digit.
+
+EXAMPLE
+Input
+254476
+  
+Output
+354476
+
+EXPLANATION
+The first digit in the application ID is '2' i.e even it is replaced by one greater digit i.e 3.
+The second digit is '4' i.e even, it is replaced by one greater digit i.e 5.
+The third digit is '5' i.e odd,it is replaced by one lesser digit i.e 4 andso on.
+Hence the output is 354476.

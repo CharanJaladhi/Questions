@@ -1,0 +1,26 @@
+In a bank there are two types of transactions: credit and debit. All transactions are assigned an alphabet. Credit transactions are assigned a vowel and debit transactions are assigned a consonant. To track transaction over a year, all the transaction IDs are combined to form a string of IDs for each customer. A customer to know the number of times he made a debit transaction immediately after a credit transaction.
+
+Write an algorithm to print the count of debit transactions that were made immediately after a credit transaction for that particular customer. 
+
+Input 
+The first line of the input consists of a string- userString, representing the string of transaction IDs. 
+
+Output 
+Print an integer representing the count of debit transactions made immediately after a credit transaction
+
+Note 
+The input string consists of English letters only. 
+Vowels are a, e, i, o, u, 'A', 'E', 'I','O','U', and all remaining letters are consonants. 
+Both uppercase and lowercase letters can be used as a transaction ID. 
+
+If no debit transactions were made immediately after a credit transaction, then count should be 0. 
+
+Example 
+Input: 
+OqPputLE 
+
+Output: 
+2 
+
+Explanation: 
+For the given string "OqPputLE", there are only two consonants that come after the vowel, So, the output is 2. 

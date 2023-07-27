@@ -1,0 +1,32 @@
+A shop had N number of sales each day for M day. Each day different types of items were sold and had different profits associated with them, but the quantity of items sold each day was the same. The owner of the shop wishes to know the minimum profit made each day. For this, a structure was formed in which profit for all different items for an individual day was kept in the same column for M days.
+
+Write an algorithm to find the minimum profit for each day individually
+
+Input
+The first line of the input consists of two integers - itemSold and noOfDays, representing the number of sales per day (N) and number of days (M) respectively
+
+The next N lines consist of M space separated integers - profit1, profit2, ... profitM representing the profit associated with each item for an individual day
+
+Output
+Print M space separated integers representing the minimum profit made each day
+
+Constraint
+1 <= noOfDay <= 10^3
+0 <= itemsSold <= 10^3
+0 <= profit1, profit2...profitM <= 10^3
+
+Example
+Input
+4 3
+3 5 10
+1 5 2
+9 2 12
+40 0 16
+
+Output
+1 0 2
+
+Explanation
+For day1 - the profit made was 3, 1, 9, 40 for different products, in this the minimum profit made is 1
+For day2 - the profit made was 5, 5, 2, 0 for different products, in this the minimum profit made is 0
+For day3 - the profit made was 10, 2, 12, 16 for different products, in this the minimum profit made is 2. so, the output is (1, 0, 2)
