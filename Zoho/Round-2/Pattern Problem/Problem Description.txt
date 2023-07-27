@@ -1,7 +1,0 @@
-Given the value of N, the size of the pattern. Print the following pattern
-
-Note:
-N is always odd.
-
-Input 1:
-5
